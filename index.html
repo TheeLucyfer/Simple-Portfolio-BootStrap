@@ -13,8 +13,8 @@
     <title>Simple Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbarCenter noPadding">
+      <a class="navbar-brand textColors" href="#">Lucy Lamperouge</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -27,16 +27,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >About Me <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
+      <div class="collapse noGrow navbar-collapse col-4" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -51,30 +44,21 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="contact.html"> Contact</a>
-              <a class="dropdown-item" href="#">Intentional Empty Links</a>
+              <a class="dropdown-item" href="index.html">About Me</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"> Intentional Empty Links</a>
+              <a class="dropdown-item" href="portfolio.html"> Portfolio</a>
             </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+          
+        
       </div>
     </nav>
-    <div class="container-md container-fluid container-sm">
-      <div class="jumbotron mt-4">
+    <div class="container-md container-fluid container-sm ">
+      <div class="jumbotron mt-4 mainText">
         <div class="row">
-          <img class="col-4 img-responsive" src="assets/images/xd.png" />
-          <div class="col-8">
+          <img class="col-2 img-responsive imgSize" src="assets/images/Cropped.png" />
+          <div class="col-10">
             <p class="lead">
               I'm not the greatest at talking about myself is the first thing
               you should know about me. Beyond that, I really enjoy playing
@@ -92,7 +76,7 @@
               something like 80% indoors, the outdoors are important!
             </p>
             <hr class="my-4" />
-            <p>
+            <p class="lead">
               Lastly, my nerd doesn't stop just with video games. I love
               consuming different kinds of media. Mainly watching tv, or anime.
               But, recently I've been getting sucked in by short stories.
@@ -101,14 +85,8 @@
         </div>
       </div>
     </div>
-    <div class="jumotron">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-        </div>
-    </div>        
+    
+           
   </body>
 
   <script
