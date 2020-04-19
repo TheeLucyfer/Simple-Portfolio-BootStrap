@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
  }
  .imgSize {
-     max-width: 200px;
+     width: 300px;
      margin: auto;
  }
  .mainText{
@@ -131,4 +131,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     .noPadding {
         padding: 0px;
+    }
+    .Relative-Portfolio {
+        position: relative;
+        margin: 20px;
     }
